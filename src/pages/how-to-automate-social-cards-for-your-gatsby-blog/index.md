@@ -101,7 +101,7 @@ Now that we have a solid base to work with, we can move on to setting up our dyn
 
 ### Adding Dynamic Content
 
-Now that we have an image and some data, we need a way to make the two work together.  I decided to go with `jimp` a [javascript based image proccessing library](https://www.npmjs.com/package/jimp) a javascript based image proccessing library.  In your plugin's folder install it with `npm i --save jimp`
+Now that we have an image and some data, we need a way to make the two work together.  I decided to go with `jimp` a [javascript based image proccessing library](https://www.npmjs.com/package/jimp).  In your plugin's folder install it with `npm i --save jimp`
 
 In our `index.js` file we can load our image and write it out to each post by adding a few lines of code:
 
