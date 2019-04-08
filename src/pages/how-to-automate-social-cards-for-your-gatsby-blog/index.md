@@ -101,7 +101,9 @@ Now that we have a solid base to work with, we can move on to setting up our dyn
 
 ### Adding Dynamic Content
 
-Now that we have an image and some data, we need a way to make the two work together.  I decided to go with `jimp` a [javascript based image proccessing library](https://www.npmjs.com/package/jimp).  In your plugin's folder install it with `npm i --save jimp`
+Now that we have an image and some data, we need a way to make the two work together.  I decided to go with `jimp` a [javascript based image proccessing library](https://www.npmjs.com/package/jimp).  In your plugin's folder install it with:
+
+`npm i --save jimp`
 
 In our `index.js` file we can load our image and write it out to each post by adding a few lines of code:
 
@@ -140,7 +142,9 @@ Websites have no idea you want to show this card though when you post a link.  W
 
 For each blog post, we need to add a dynamic link to the social card that we want displayed.
 
-I use `react-helmet` and `gatsby-plugin-react-helmet` because it makes working with meta tags in React a pleasure. You can install them with `npm i --save gatsby-plugin-react-helmet react-helmet`.
+I use `react-helmet` and `gatsby-plugin-react-helmet` because it makes working with meta tags in React a pleasure. You can install them with: 
+
+`npm i --save gatsby-plugin-react-helmet react-helmet`
 
 Remember to add your new plugin to your `gatsby-config` like so:
 
